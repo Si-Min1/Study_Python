@@ -62,6 +62,26 @@ print(dic1.values())
 print(dic1.items())
 
 
+# 리스트를 튜플로 튜플을 리스트로
+tup2 = arr4
+print(tup2)
+
+tup2 = tuple(arr4)
+print(tup2)
+
+# arr4.sort()는 존재함 허나 tup2.sort()는 예약어에 없음 //append도 없음
+
+arr5 = list(tup2)
+print(arr5)         # 튜플을 못바꾸니 리스트로 변환
+arr5.append(6)
+print(arr5)
+
+
+
+
+
+
+
 
 
 
